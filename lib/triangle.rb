@@ -1,7 +1,7 @@
 class Triangle
   attr_accessor :x, :y, :z
 
-  def initializes(x, y, z)
+  def initializes
     @x = x
     @y = y
     @z = z
