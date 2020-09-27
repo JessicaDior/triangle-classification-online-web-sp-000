@@ -8,8 +8,13 @@ class Triangle
   end
 
 def kind
-  if side_1 == side_2 == side_3
-    then
+  
+if x == y && y == z && x == z 
+  :equilateral
+elsif x != y && y != z && z!= x 
+  :scalene
+else
+  :isosceles
 end
 
 end
