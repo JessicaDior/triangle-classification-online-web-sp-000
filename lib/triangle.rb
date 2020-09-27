@@ -31,7 +31,7 @@ def positive_triangle
 
 
 class TriangleError < StandardError
-
+  puts "Not a valid triangle."
   end
 
 end
