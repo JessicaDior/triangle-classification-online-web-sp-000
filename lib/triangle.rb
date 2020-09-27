@@ -9,9 +9,9 @@ class Triangle
 
 def kind
   
-if x == y && y == z && x == z 
+if x == y && y == z && x == z
   :equilateral
-elsif x != y && y != z && z!= x 
+elsif x != y && y != z && z!= x
   :scalene
 else
   :isosceles
