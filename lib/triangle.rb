@@ -1,7 +1,10 @@
 class Triangle
-  attr_accessor :kind
+  attr_accessor :side_1, :side_2, :side_3
 
   def initializes(side_1, side_2, side_3)
+    @side_1 = side_1
+    @side_2 = side_2
+    @side_3 = side_3
 
   end
 
