@@ -23,7 +23,7 @@ end
 end
 
 def positive_triangle
-  x.positve? && y.positive? && z.positive
+  x.positve? && y.positive? && z.positive?
   end
 
   def valid_triangle
