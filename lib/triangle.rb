@@ -23,16 +23,16 @@ end
 end
 
 def positive_triangle
-  x.positve? && y.positive? && z.positive 
+  x.positve? && y.positive? && z.positive
   end
 
   def valid_triangle
     x + y > z && x + z > y && y + z > x
   end
-  
+
 
 class TriangleError < StandardError
-  
+
   end
 
 end
