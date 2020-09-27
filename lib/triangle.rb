@@ -1,13 +1,15 @@
 class Triangle
-  attr_accessor :side_1, :side_2, :side_3
+  attr_accessor :x, :y, :z
 
-  def initializes(side_1, side_2, side_3)
-    @side_1 = side_1
-    @side_2 = side_2
-    @side_3 = side_3
+  def initializes(x, y, z)
+    @x = x 
+    @y = y 
+    @z = z
   end
 
 def kind
+  if side_1 == side_2 == side_3
+    then 
 end
 
 end
