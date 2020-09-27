@@ -9,7 +9,7 @@ class Triangle
 
 def kind
   if positive_triangle == true && valid_triangle == true
-    puts true
+  
   else raise TriangleError
   end
 
